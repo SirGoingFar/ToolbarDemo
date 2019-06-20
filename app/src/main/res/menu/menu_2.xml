@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_notification1"
+        android:icon="@drawable/ic_more_vert"
+        android:title="@string/action_notification"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_insert_new_journal"
+                android:icon="@drawable/ic_directions"
+                android:orderInCategory="1"
+                android:title="@string/new_menu_option_1"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_delete_all_journals"
+                android:icon="@drawable/ic_directions"
+                android:orderInCategory="2"
+                android:title="@string/new_menu_option_2"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_logout"
+                android:icon="@drawable/ic_directions"
+                android:orderInCategory="3"
+                android:title="@string/new_menu_option_3"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

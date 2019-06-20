@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        app:logo="@drawable/ic_android"
+        app:navigationIcon="@drawable/ic_arrow_back_black"
+        app:popupTheme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        app:subtitle="A mini impl for testing"
+        app:subtitleTextColor="#FFFFFF"
+        app:title="Toolbar Demo"
+        app:titleTextColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_hide_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/remove_menu_option"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btn_show_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/show_menu_option"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btn_hide_all_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/hide_all_menu"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btn_show_all_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/show_all_menu"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btn_swap_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/swap_menu"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>

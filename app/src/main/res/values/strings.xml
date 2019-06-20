@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ToolbarDemo</string>
+    <string name="insert_new_journal">Menu Option 1</string>
+    <string name="delete_all_journals">Menu Option 2</string>
+    <string name="logout">Menu Option 3</string>
+    <string name="action_notification">action_notification</string>
+    <string name="remove_menu_option">Hide Menu Option</string>
+    <string name="show_menu_option">Show Menu Option</string>
+    <string name="hide_all_menu">Hide all Menu</string>
+    <string name="show_all_menu">Show all Menu</string>
+    <string name="new_menu_option_1">New Menu Option 1</string>
+    <string name="new_menu_option_2">New Menu Option 2</string>
+    <string name="new_menu_option_3">New Menu Option 3</string>
+    <string name="swap_menu">Swap Menu</string>
+    <string name="action_share">Share</string>
+</resources>
